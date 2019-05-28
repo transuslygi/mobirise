@@ -25,7 +25,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.1",
     "siteFonts": [],
-    "uniqCompNum": 15,
+    "uniqCompNum": 17,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -104,7 +104,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Главная</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider-4\">Компания</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-6\">Отзывы</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-e\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-8\">Заявка</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Главная</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider-4\">Компания</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-6\">Отзывы</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-g\">Контакты</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-8\">Заявка</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -386,8 +386,8 @@
         },
         {
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "3",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -395,31 +395,20 @@
             "bgColor": "#2e2e2e",
             "overlay": true,
             "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-128x85.jpg",
-              "width": 128,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.629407416833!2d40.37727421594581!3d56.14622148066042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414c7bf000c137f3%3A0x476e3cc0dfc5dee7!2z0YPQuy4g0JPQvtGA0YzQutC-0LPQviwgODcsINCS0LvQsNC00LjQvNC40YAsINCS0LvQsNC00LjQvNC40YDRgdC60LDRjyDQvtCx0LsuLCA2MDAwMjY!5e0!3m2!1sru!2sru!4v1559070711520!5m2!1sru!2sru\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Адресс</b></span></font><br>г. Москва, ул. Донская, д. 8<br>",
-          "text2": "<strong>Контакты</strong><br>\nEmail: transuslygi@gmail.com<br>\nТелефон: 8-800-555-35-35<br><br>",
-          "text3": "",
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Адресс</b></span></font><br>ул горького 87 Владимир<br><br>\n<strong>Контакты</strong><br>Email: transuslygi@gmail.com\n<br>Телефон: 8-800-555-35-35<br>",
+          "text2": "<ul><li></li></ul>",
           "_tags": [
             "Тема"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-e"
+          "_name": "contacts2",
+          "_anchor": "contacts2-g"
         }
       ]
     }
